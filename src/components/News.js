@@ -93,19 +93,21 @@ const News = (props) => {
       <>
 
            
+            <div className='container'>
 
-            <h6 className="container text-center text-dark" 
-            style={{
-
-                  borderRadius: "1rem",
-                  border: "none",
-                  padding: "15px",
-                  backgroundColor:"#64b5f6",
-                  marginTop:"80px",
-                  fontFamily: "Roboto Slab"
-
+                  <h6 className="container text-center text-dark" 
+                  style={{
+                        
+                        borderRadius: "1rem",
+                        border: "none",
+                        padding: "15px",
+                        backgroundColor:"#64b5f6",
+                        marginTop:"80px",
+                        fontFamily: "Roboto Slab",
+                        
                   }}>Top headlines on {capitalize(props.category)}</h6>
       
+            </div>
 
 
             <InfiniteScroll
@@ -131,10 +133,13 @@ const News = (props) => {
 
                         </div>
 
+                  
                   </div>
                   
 
             </InfiniteScroll>
+
+            
 
             
 

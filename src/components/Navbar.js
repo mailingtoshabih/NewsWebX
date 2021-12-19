@@ -19,7 +19,7 @@ const Navbar = () => {
                               
 
 
-                              <Link className="navbar-brand" to="/technology"   style={{textDecoration: "none"}}>NewsWebX</Link>
+                              <Link className="navbar-brand" to="/health"   style={{textDecoration: "none"}}>NewsWebX</Link>
                               
                               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ const Navbar = () => {
                         
                                           <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/technology">Technology</Link></li>
                                           <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/science">Science</Link></li>
-                                          <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/health">Health</Link></li>
+                                          {/* <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/health">Health</Link></li> */}
                                           <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/sports">Sports</Link></li>
                                           <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/business">Business</Link></li>
                                     </ul>
